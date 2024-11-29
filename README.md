@@ -41,10 +41,13 @@ To get started with the Recipe App on your local machine, follow these steps:
 ### 1. Clone the repository:
 ```bash
 git clone https://github.com/Muzammilify/Recipe-app.git
+```
 
 2. Navigate into the project folder:
 
+```bash
 cd Recipe-app
+```
 
 3. Open the index.html file:
 
