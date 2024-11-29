@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Spaghetti Carbonara",
+    "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+    "image": "images/sample-recipe.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Grilled Chicken Salad",
+    "description": "A healthy salad with grilled chicken, fresh veggies, and a tangy dressing.",
+    "image": "images/sample-recipe.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Chocolate Cake",
+    "description": "A rich and moist chocolate cake topped with creamy chocolate frosting.",
+    "image": "images/sample-recipe.jpg",
+    "link": "#"
+  },
+  {
+    "name": "Vegetable Stir Fry",
+    "description": "A colorful mix of fresh veggies stir-fried with a savory sauce.",
+    "image": "images/sample-recipe.jpg",
+    "link": "#"
+  }
+]

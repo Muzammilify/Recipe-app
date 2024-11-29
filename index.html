@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe App</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <!-- H -->
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Recipe App</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#recipes">Recipes</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Muzzu Variable 💀 -->
+  <main>
+    <section class="muzzu">
+      <div class="container text-center">
+        <h1>Discover Amazing Recipes</h1>
+        <p>Cook something delicious today!</p>
+
+        <!-- FHS -->
+        <div class="features d-flex justify-content-center gap-4 my-4">
+          <div class="feature-item">
+            <i class="fas fa-utensils fa-2x"></i>
+            <p>Wide Variety of Dishes</p>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-clock fa-2x"></i>
+            <p>Quick & Easy Recipes</p>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-heart fa-2x"></i>
+            <p>Healthy & Delicious</p>
+          </div>
+        </div>
+
+       
+        <div class="hero-subtext">
+          <p>Your ultimate guide to mouth-watering dishes!</p>
+        </div>
+        <button class="btn btn-primary btn-lg">Get Started</button>
+      </div>
+    </section>
+
+    <!-- Recipes -->
+    <section id="recipes" class="recipes-section py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Our Recipes</h2>
+        <div class="row g-4">
+          <div class="col-md-3">
+            <div class="card recipe-card">
+              <img src="images/spaghetti-carbonara.jpg" class="card-img-top" alt="Spaghetti Carbonara">
+              <div class="card-body">
+                <h5 class="card-title">Spaghetti Carbonara</h5>
+                <p class="card-text">A creamy and delicious Italian classic.</p>
+                <a href="recipes/spaghetti-carbonara.html" class="btn btn-primary">View Recipe</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-3">
+            <div class="card recipe-card">
+              <img src="images/grilled-chicken-salad.jpg" class="card-img-top" alt="Grilled Chicken Salad">
+              <div class="card-body">
+                <h5 class="card-title">Grilled Chicken Salad</h5>
+                <p class="card-text">A healthy salad with perfectly grilled chicken.</p>
+                <a href="recipes/grilled-chicken-salad.html" class="btn btn-primary">View Recipe</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card recipe-card">
+              <img src="images/chocolate-cake.jpg" class="card-img-top" alt="Chocolate Cake">
+              <div class="card-body">
+                <h5 class="card-title">Chocolate Cake</h5>
+                <p class="card-text">Rich and moist, the ultimate dessert treat.</p>
+                <a href="recipes/chocolate-cake.html" class="btn btn-primary">View Recipe</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card recipe-card">
+              <img src="images/vegetable-stir-fry.jpg" class="card-img-top" alt="Vegetable Stir Fry">
+              <div class="card-body">
+                <h5 class="card-title">Vegetable Stir Fry</h5>
+                <p class="card-text">A colorful mix of fresh vegetables, stir-fried to perfection.</p>
+                <a href="recipes/vegetable-stir-fry.html" class="btn btn-primary">View Recipe</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- NICHE KA TEXT -->
+  <footer class="bg-dark text-center text-white py-3">
+    <p>&copy; 2024 Recipe App. All Rights Reserved.</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
